@@ -10,5 +10,16 @@ const input = require("./input");
         return;
     }
 
-    console.log(word);
+    // Make a reversed word
+    let reversed = "";
+    for (let i = word.length - 1 ; i >= 0 ; i--) {
+        reversed += word[i];
+    }
+
+    // Check if input is palindrome
+    if (word == reversed) {
+        console.log(`${word} is a palindrome.`);
+    } else {
+        console.log(`${word} is not a palindrome.`);
+    }
 })();
