@@ -1,5 +1,5 @@
 # Programming Practice
-List of common programming practices used in interview questions. Both JavaScript and Python.
+List of common programming practices used in interview questions. Both JavaScript and Python
 
 ## To run a JavaScript file:
 - node `<file>`
