@@ -14,6 +14,6 @@ const input = require("./input");
     // Get the average
     const result = sum / num_length;
 
-    console.log(`The average of ${num_list.join(", ")} is ${result}`);
+    console.log(`The mean of ${num_list.join(", ")} is ${result}`);
 
 })();
